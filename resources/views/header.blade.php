@@ -31,4 +31,4 @@
 <!-- JS, Popper.js, and jQuery -->
 
 </head>
-<body style="margin: 1% 8% 1% 8% !important;">
+<body style="margin: 1% 8% 1% 8% !important; background-color:#E8F9FF;" >

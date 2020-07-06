@@ -21,6 +21,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::get("alumnos","controlador_nuevo@inicio_de_controlador");
 Route::post("delete","controlador_nuevo@delete")->name("delete");
 Route::post("insert","controlador_nuevo@insert")->name("insert");
-
+Route::get("login", "controlador_nuevo@login");
+Route::post("inicio_sesion",['uses'=>'controlador_nuevo@inicio_sesion','as'=> "form.store"]);
 Route::post("lugar_de_actualizar","controlador_nuevo@lugar_de_actualizar")->name("lugar_de_actualizar");
 Route::post("update","controlador_nuevo@update")->name("update");
