@@ -50,21 +50,21 @@
                  <!-- <fieldset disabled> -->
                     <div class="form-group">
                       <label for="disabledTextInput">Rut</label>
-                      <input class="form-control" value="{{$tupla->rut_alumno}}" type="text" name="rutalum">
+                      <input class="form-control" value="{{$tupla->rut_alumno}}" type="text" name="rutalum" maxlength="15">
                       <small id="emailHelp" class="form-text text-muted">Este campo no se puede modificar</small>
                     </div>
                  <!-- </fieldset> -->
                   <div class="form-group">
                     <label for="exampleInputEmail1">Nombre</label>
-                    <input class="form-control" value="{{$tupla->nombre_alumno}}" type="text" name="nombrealum">
+                    <input class="form-control" value="{{$tupla->nombre_alumno}}" type="text" name="nombrealum" maxlength="50">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Telefono</label>
-                    <input class="form-control" value="{{$tupla->telefono}}" type="text" name="telefonoalum">
+                    <input class="form-control" value="{{$tupla->telefono}}" type="text" name="telefonoalum" maxlength="15">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Carrera</label>
-                    <input class="form-control" value="{{$tupla->carrera}}" type="text" name="carreraalum">
+                    <input class="form-control" value="{{$tupla->carrera}}" type="text" name="carreraalum" maxlength="50">
                   </div>
                   <button type="submit" class="btn btn-primary">Actualizar</button>
               </form>

@@ -25,3 +25,4 @@ Route::get("login", "controlador_nuevo@login");
 Route::post("inicio_sesion",['uses'=>'controlador_nuevo@inicio_sesion','as'=> "form.store"]);
 Route::post("lugar_de_actualizar","controlador_nuevo@lugar_de_actualizar")->name("lugar_de_actualizar");
 Route::post("update","controlador_nuevo@update")->name("update");
+Route::get("fin_sesion","controlador_nuevo@fin_sesion")->name('fin_sesion');;
